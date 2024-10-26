@@ -1,0 +1,31 @@
+﻿  飞机.cpp
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(133,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(133,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(134,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(134,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(140,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(140,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(141,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(141,20): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(151,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(151,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(152,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(152,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(156,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(156,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(157,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(157,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(166,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(166,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(167,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(167,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(171,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(171,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(172,52): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(172,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(364,22): warning C4018: “>”: 有符号/无符号不匹配
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(375,22): warning C4018: “>”: 有符号/无符号不匹配
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(525,9): warning C4551: 缺少参数列表的函数调用
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(556,7): warning C4551: 缺少参数列表的函数调用
+D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\AirFight\飞机.cpp(566,9): warning C4551: 缺少参数列表的函数调用
+  AirFight.vcxproj -> D:\MHL\大一下\个人文件\程设实践\GAME\AirFight\AirFight\Debug\AirFight.exe
