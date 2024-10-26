@@ -1,0 +1,120 @@
+Fitter report for srbj
+Thu Nov 04 20:21:51 2021
+Quartus II 64-Bit Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+  3. Fitter Settings
+  4. Parallel Compilation
+  5. Fitter Device Options
+  6. Fitter Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------+
+; Fitter Summary                                                       ;
++---------------------------+------------------------------------------+
+; Fitter Status             ; Failed - Thu Nov 04 20:21:51 2021        ;
+; Quartus II 64-Bit Version ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name             ; srbj                                     ;
+; Top-level Entity Name     ; srbj                                     ;
+; Family                    ; MAX3000A                                 ;
+; Device                    ; EPM3256AQI208-10                         ;
+; Timing Models             ; Final                                    ;
+; Total macrocells          ; 1                                        ;
+; Total pins                ; 4                                        ;
++---------------------------+------------------------------------------+
+
+
++---------------------------------------------------------------------------------------+
+; Fitter Settings                                                                       ;
++----------------------------------------------------+------------------+---------------+
+; Option                                             ; Setting          ; Default Value ;
++----------------------------------------------------+------------------+---------------+
+; Device                                             ; EPM3256AQI208-10 ;               ;
+; Use smart compilation                              ; Off              ; Off           ;
+; Use TimeQuest Timing Analyzer                      ; Off              ; Off           ;
+; Optimize Timing for ECOs                           ; Off              ; Off           ;
+; Regenerate full fit report during ECO compiles     ; Off              ; Off           ;
+; Optimize IOC Register Placement for Timing         ; On               ; On            ;
+; Limit to One Fitting Attempt                       ; Off              ; Off           ;
+; Fitter Initial Placement Seed                      ; 1                ; 1             ;
+; Slow Slew Rate                                     ; Off              ; Off           ;
+; Fitter Effort                                      ; Auto Fit         ; Auto Fit      ;
+; Force Fitter to Avoid Periphery Placement Warnings ; Off              ; Off           ;
++----------------------------------------------------+------------------+---------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-8 processors         ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------+
+; Fitter Device Options                                         ;
++----------------------------------------------+----------------+
+; Option                                       ; Setting        ;
++----------------------------------------------+----------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off            ;
+; Enable device-wide reset (DEV_CLRn)          ; Off            ;
+; Enable device-wide output enable (DEV_OE)    ; Off            ;
+; Enable INIT_DONE output                      ; Off            ;
+; Configuration scheme                         ; Passive Serial ;
+; Security bit                                 ; Off            ;
+; Base pin-out file on sameframe device        ; Off            ;
++----------------------------------------------+----------------+
+
+
++-----------------+
+; Fitter Messages ;
++-----------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Fitter
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Thu Nov 04 20:21:51 2021
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off srbj -c srbj
+Info: Parallel compilation is enabled and will use 4 of the 8 processors detected
+Warning: FLEXlm software error: Invalid (inconsistent) license key.  The license key and data for the feature do not match.  This usually happens when a license file has been altered. Feature:       quartus License path:  D:\license.DAT FLEXnet Licensing error:-8,523 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
+Error: Current license file does not support the EPM3256AQI208-10 device
+Error: Quartus II 64-Bit Fitter was unsuccessful. 1 error, 1 warning
+    Error: Peak virtual memory: 4427 megabytes
+    Error: Processing ended: Thu Nov 04 20:21:51 2021
+    Error: Elapsed time: 00:00:00
+    Error: Total CPU time (on all processors): 00:00:00
+
+
