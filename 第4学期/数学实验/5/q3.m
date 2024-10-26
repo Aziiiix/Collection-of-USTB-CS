@@ -1,0 +1,9 @@
+x0=[1.2;0;0;-1.0496];%x0(i)对应与xi的初值
+options=odeset('reltol',1e-8);
+tic
+[t,y]=ode45(@appollo,[0,20],x0,options);
+toc
+plot(y(:,1),y(:,3))
+title('Appollo卫星运动轨迹')
+xlabel('X轴')
+ylabel('Y轴')

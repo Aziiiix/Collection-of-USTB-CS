@@ -1,0 +1,29 @@
+clear;clf
+p0=[0 0 0]; %追击者起始点
+pd=[1500 0 1500]; %目标初始点；
+v2=500; %导弹速度 m/s
+hold on
+dt=0.01; %时间间隔
+xp0=p0(1); yp0=p0(2); zp0=p0(3);%追击者起始点
+xd0=pd(1); yd0=pd(2); zd0=p0(3);%目标起始点
+times=0; %记录追击的步数
+d0=100; %记录追击者和目标之间距离
+theta=0;
+thr=10; %设置阈值
+
+while(d0>thr) 
+theta=pi*dt*times;
+xd1=xd0-10*sin(theta);
+zd1=zd0-10*(1-cos(theta))+times*2;
+plot([xd0,xd1],[yd0,yd1],'b'); %作目标点运动轨迹
+d0=sqrt((xp0-xd0)^2+(yp0-yd0)^2); %当前目标点和追击者距离
+cos_ct=(xd0-xp0)/d0; sin_ct=(yd0-yp0)/d0;
+xp1=xp0+v2*cos_ct*dt; yp1=yp0+v2*sin_ct*dt; %更新追击者位置
+plot([xp0,xp1],[yp0,yp1],'r'); %追击者运动轨迹
+v0=sqrt((xd0-xd1)^2+(yd0-yd1)^2)/dt %飞机速度估计值
+pause(0.01);
+xp0=xp1; yp0=yp1; %追击者重新赋初值
+xd0=xd1; yd0=yd1; %目标点重新赋初值
+times=times+1;
+end
+time=times*dt;

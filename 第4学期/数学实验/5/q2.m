@@ -1,0 +1,9 @@
+t0=0;
+tf=2*pi;
+x0t=[0;0];
+[t,x]=ode23('mainfun',[t0,tf],x0t);
+y=x(:,1);
+dy=x(:,2);
+plot(t,y,'b--',t,dy,'r-.');
+xlabel('t轴'),ylabel('y轴');
+legend('原始函数y','一阶函数dy');
