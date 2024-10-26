@@ -1,0 +1,152 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Oct  7 11:57:51 2022
+# Process ID: 1344
+# Current directory: D:/MHL/5/Courses/JZSY/code/test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3756 D:\MHL\5\Courses\JZSY\code\test\test.xpr
+# Log file: D:/MHL/5/Courses/JZSY/code/test/vivado.log
+# Journal file: D:/MHL/5/Courses/JZSY/code/test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MHL/5/Courses/JZSY/code/test/test.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Application/Vivado/app1/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:05 . Memory (MB): peak = 772.520 ; gain = 89.605
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/MHL/5/Courses/JZSY/code/test/test.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Application/Vivado/app1/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/MHL/5/Courses/JZSY/code/test/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/MHL/5/Courses/JZSY/code/test/test.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/segpos.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/pcdef.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/opcode.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/funct.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/debug.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/include/bus.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/BranchGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/ex/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/ex/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/FunctGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FunctGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/if/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/mem/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/mem/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/MemGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MemGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/OperandGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OperandGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/if/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/pipeline/PipelineController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineController
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/pipeline/PipelineDeliver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PipelineDeliver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/sim/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/storage/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/id/RegGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/storage/RegReadProxy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegReadProxy
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/CDE/cpu/core/stage/wb/WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MHL/5/Courses/JZSY/code/test/test.srcs/sim_1/new/cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/MHL/5/Courses/JZSY/code/test/test.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Application/Vivado/app1/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto df7bf39d78c04f12a7fc01676dcc8056 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'stall' [D:/MHL/5/Courses/JZSY/code/test/test.srcs/sim_1/new/cpu_tb.v:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=32)
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.RegGen
+Compiling module xil_defaultlib.FunctGen
+Compiling module xil_defaultlib.OperandGen
+Compiling module xil_defaultlib.BranchGen
+Compiling module xil_defaultlib.MemGen
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=6)
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=5)
+Compiling module xil_defaultlib.PipelineDeliver
+Compiling module xil_defaultlib.PipelineDeliver(WIDTH=4)
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.WB
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.RegReadProxy
+Compiling module xil_defaultlib.PipelineController
+Compiling module xil_defaultlib.Core
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/MHL/5/Courses/JZSY/code/test/test.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 878.988 ; gain = 70.664
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  7 12:11:55 2022...

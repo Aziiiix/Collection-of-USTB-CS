@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "D:/MHL/5/Courses/JZSY/CDE/cpu/include/sim.v" "D:/MHL/5/Courses/JZSY/CDE/cpu/include/segpos.v" "D:/MHL/5/Courses/JZSY/CDE/cpu/include/pcdef.v" "D:/MHL/5/Courses/JZSY/CDE/cpu/include/opcode.v" "D:/MHL/5/Courses/JZSY/CDE/cpu/include/funct.v" "D:/MHL/5/Courses/JZSY/CDE/cpu/include/debug.v" "D:/MHL/5/Courses/JZSY/CDE/cpu/include/bus.v" -i "../../../../../../CDE/cpu/include" --include "../../../../test.ip_user_files/ipstatic/hdl" --include "../../../../../../CDE/cpu/include" \
+"../../../../../../CDE/cpu/core/stage/id/BranchGen.v" \
+"../../../../../../CDE/cpu/core/Core.v" \
+"../../../../../../CDE/cpu/core/stage/ex/EX.v" \
+"../../../../../../CDE/cpu/core/stage/ex/EXMEM.v" \
+"../../../../../../CDE/cpu/core/stage/id/FunctGen.v" \
+"../../../../../../CDE/cpu/core/stage/id/ID.v" \
+"../../../../../../CDE/cpu/core/stage/id/IDEX.v" \
+"../../../../../../CDE/cpu/core/stage/if/IFID.v" \
+"../../../../../../CDE/cpu/core/stage/mem/MEM.v" \
+"../../../../../../CDE/cpu/core/stage/mem/MEMWB.v" \
+"../../../../../../CDE/cpu/core/stage/id/MemGen.v" \
+"../../../../../../CDE/cpu/core/stage/id/OperandGen.v" \
+"../../../../../../CDE/cpu/core/stage/if/PC.v" \
+"../../../../../../CDE/cpu/core/pipeline/PipelineController.v" \
+"../../../../../../CDE/cpu/core/pipeline/PipelineDeliver.v" \
+"../../../../../../CDE/cpu/sim/RAM.v" \
+"../../../../../../CDE/cpu/sim/ROM.v" \
+"../../../../../../CDE/cpu/core/storage/RegFile.v" \
+"../../../../../../CDE/cpu/core/stage/id/RegGen.v" \
+"../../../../../../CDE/cpu/core/storage/RegReadProxy.v" \
+"../../../../../../CDE/cpu/core/stage/wb/WB.v" \
+"../../../../test.srcs/sim_1/new/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
